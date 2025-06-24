@@ -1,0 +1,55 @@
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+
+# Arquivos específicos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configurações do Python
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+.Python
+
+# Cache e logs
+.cache/
+*.log
+*.pot
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testes e cobertura
+.coverage
+htmlcov/
+.pytest_cache/
+test-results.xml
+
+# Dados/CSV (opcional - remova se quiser versionar arquivos de dados)
+*.csv
+
+# Docker
+docker-compose.override.yml
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*
+!.env.example
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos específicos do projeto (se necessário)
+/data/
+!/data/vendas.exemplo.csv  # mantém o arquivo exemplo se necessário
